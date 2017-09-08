@@ -1,7 +1,7 @@
-//Вариант №3
-//Блохин Павел Александрович. КЭ-106
+//Variant №3
+//Blokhin Pavel Aleksandrovich. Group-106
 
-//Лабораторная работа №1. Задание №4
+//Lab №1. Task №4
 
 #include "stdafx.h"
 #include <iostream>
