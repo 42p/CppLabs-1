@@ -65,6 +65,17 @@ int main()
 	cin >> findName;
 
 
+	for (int j = 0; j < k; j++)
+	{
+		for (int i = j; i < k - 1; i++)
+		{
+			if (mas[i].number_short > mas[i + 1].number_short)
+			{
+				swap(mas[i], mas[i + 1]);
+			}
+		}
+	}
+
 	for (int i = 0; i < k; i++)
 	{
 		if (findName == mas[i].Name)

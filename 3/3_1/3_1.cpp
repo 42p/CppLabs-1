@@ -21,7 +21,7 @@ int main()
 		k++;
 	}
 	for (int j = 0; j < k; j++) {
-		for (int i = j; i < k; i++)
+		for (int i = j; i < k-1; i++)
 		{
 			if (a[i] > a[i + 1])
 			{
