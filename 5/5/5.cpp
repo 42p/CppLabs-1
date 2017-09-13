@@ -189,13 +189,21 @@ int main()
 		while (1)
 		{
 			cin.getline(qe, 255);
-			if (strlen(qe) == 1 && ((qe[0] > '0' && qe[0] < '6') || qe[0] == 'e'))
+			if (strlen(qe) == 1 && ((qe[0] > '0' && qe[0] < '6') || qe[0] == 'e' ))
 			{
 				q = qe[0];
 				break;
 			}
 			else
-				cout << "\nIncorrect value\n";
+				if (qe[0] == '\n' || qe[0] == '\0')
+				{
+
+				}
+				else
+				{
+					cout << "\nIncorrect value\n";
+				}
+
 		}
 
 		cout << endl;
